@@ -1,14 +1,35 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "PolicyNo": "POL12345",
+  "JoiningDate": "2023-01-15T00:00:00",
+  "PremiumRate": 250.50,
+  "AmendmentDate": "2023-05-20T00:00:00",
+  "FirstNames": "John",
+  "CoverAmount": 500000,
+  "Surname": "Doe",
+  "CoverPlans": "Plan A",
+  "IDNumber": "ABC123456",
+  "ResidentialAddress": "123 Main St",
+  "PostalAddress": "456 Broad St",
+  "SpouseFirstNames": "Jane",
+  "SpouseSurname": "Doe",
+  "SpouseIDNumber": "XYZ789012",
+  "Dependents": [
+    {
+      "Type": "Child",
+      "FirstName": "Emily",
+      "Surname": "Doe",
+      "IDNumber": "DEF456789",
+      "CoverAmount": 100000
+    },
+    {
+      "Type": "Child",
+      "FirstName": "Michael",
+      "Surname": "Doe",
+      "IDNumber": "GHI987654",
+      "CoverAmount": 150000
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "MainMemberSignature": "John Doe",
+  "DeclarationDate": "2023-06-01T00:00:00"
 }
+
